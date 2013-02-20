@@ -9,12 +9,11 @@
 		}
 
 	
-	body {
+	body {	background-color: white;
 		font-family: Papyrus, Geneva, Helvetica;
 		color: black;
-		border-style: double;
-		border-width: 10px;
 		width: 1000px;
+		length: 100%;
 		}
 		
 			
@@ -75,8 +74,6 @@
 		width: 80%;
 		color: black;
 		font-size: 0.8em;
-		bottom: 2px;
-		padding: 3px;
     		text-align: right;
     		position: absolute;
     		line-height: 90%;
