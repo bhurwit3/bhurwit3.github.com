@@ -2,41 +2,47 @@
 		background-image: url(dust.png);
 		background-attachment: fixed;
 		background-size: cover;
-		padding-top:25px;
-		padding-bottom:25px;
-		padding-right:90px;
-		padding-left:50px;
+		margin-top:30px;
 		}
 
 	
-	body {	background-color: white;
+	body {	
 		font-family: Papyrus, Geneva, Helvetica;
 		color: black;
-		width: 1000px;
-		length: 100%;
+		height: 100%;
+		margin-left: 100px;
+		margin-right: 100px;
 		}
 		
-			
+		
+	Header {
+		background-image: url(shornsheep.png);
+		background-size: cover;
+		padding-top:15px;
+		padding-bottom:15px;
+		width: 100%;
+		}
+		
+
+		
 	h1 {
 		color: black;
-		opacity: 1.0;
 		font-family: 'Droid Sans Mono', sans-serif;
 		font-size: 4.0em;
-		text-align: left;
-		padding-left: 60px;
+		text-align: center;
 		}
 
 	h2 {	color: black;
-		text-align:left;
-		padding-left:5px;
+		text-align:center;
+		padding-left:0px;
 		}
 	
 	p {
-		width: 70%;
-		text-align: left;
-		color: #472400;
+		text-align: center;
+		color: black;
 		opacity: 0.9;
-		padding:10px;
+		padding: 10px;
+		padding-bottom: 80px:
 		}
 		
 
@@ -57,7 +63,7 @@
 		color: black;
 		}		
 	
-	#nav {
+	nav {
 		text-align: center;
 		color: black;
 		margin-top: 12px;
@@ -69,19 +75,24 @@
 		padding: 7px 10px 7px 10px;
 		}
 		
-			
-	
-	footer	{
-		width: 80%;
-		color: black;
-		font-size: 0.8em;
-    		text-align: right;
-    		position: absolute;
-    		line-height: 90%;
-		margin: 0px
+	#content {
+		padding: 10px;
+		padding-bottom: 80px;
 		}
-
-	#wrapper {width: 1000px;
+	
+	#footer	{
+		width: 100%;
+		height: 30px;
+		position: absolute;
+    	text-align: center;
+		bottom:0;
+		left:0;
+		background: white;
+		}
+		
+	#wrapper {
+		min-height:100%;
+		position:relative;
 		}
 		
 
