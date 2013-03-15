@@ -21,8 +21,8 @@ Ben Hurwitz
 <div id="sidebar">
 <nav>
 	<ul>
-		<li><a href="responsive design.html">Responsive Design Page</a></li>
-		<li><a href="">Design Rationale</a></li>
+		<li><a href="#">Counting Sheep</a></li>
+		<li><a href="#">Design Rationale</a></li>
 		<li><a href="#">Traveler's Archive</a></li>
 		<li><a href="https://twitter.com/bhurwit3">Twitter</a></li>
 	</ul>	

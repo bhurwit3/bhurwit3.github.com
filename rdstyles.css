@@ -1,0 +1,469 @@
+/*
+media screen default
+*/
+@media screen {
+html {
+		background-image: url(dust.png);
+		background-attachment: fixed;
+		background-size: cover;
+		margin: 40px auto;
+		}
+
+	
+	body {	
+		font-family: Papyrus, Geneva, Helvetica;
+		color: black;
+		height: 100%;
+		margin-left: 100px;
+		margin-right: 100px;
+		margin: 0px auto;
+		max-width: 800px;
+		}
+		
+		
+	Header {
+		background-image: url(shornsheep.png);
+		background-size: cover;
+		padding-top:15px;
+		padding-bottom:15px;
+		width: 100%;
+		}
+		
+
+		
+	h1 {
+		color: black;
+		font-family: 'Droid Sans Mono', sans-serif;
+		font-size: 4.0em;
+		text-align: center;
+		}
+
+	h2 {	color: black;
+		text-align:center;
+		padding-left:0px;
+		}
+	
+	p {
+		text-align: center;
+		color: black;
+		opacity: 0.9;
+		padding: 10px;
+		padding-bottom: 80px:
+		}
+		
+
+	ul {
+		list-style-type:none;
+		display: inline;
+		}
+		
+	li { 
+		display: inline;
+		border-right: 1px solid #231B12;
+		border-left: 1px solid #231B12;
+		padding: 5px;
+		}
+		
+	a {
+		width: 70%;
+		color: black;
+		}		
+	
+	nav {
+		text-align: center;
+		color: black;
+		margin-top: 12px;
+		margin-right: 2px;
+		background-color: #D1C2B3;
+		opacity: 0.6;
+		border: 1px black;
+		border-style: solid;
+		padding: 7px 10px 7px 10px;
+		}
+		
+	#content {
+		padding: 10px;
+		padding-bottom: 100px;
+		}
+	
+	#footer	{
+		width: 100%;
+		height: 30px;
+		position: absolute;
+    	text-align: center;
+		bottom:0;
+		left:0;
+		background: white;
+		}
+		
+	#wrapper {
+		min-height:100%;
+		position:relative;
+		}
+
+		#sidebar {
+		text-align:center;
+		padding: 0px;
+		}
+
+}
+
+
+
+
+/*
+* 700px and wider
+*/
+@media screen and (min-width: 700px) {
+html {
+		background-image: url(dust.png);
+		background-attachment: fixed;
+		background-size: cover;
+		margin: 40px auto;
+		}
+
+	
+	body {	
+		font-family: Papyrus, Geneva, Helvetica;
+		color: black;
+		height: 100%;
+		margin-left: 100px;
+		margin-right: 100px;
+		margin: 0px auto;
+		max-width: 800px;
+		}
+		
+		
+	Header {
+		background-image: url(shornsheep.png);
+		background-size: cover;
+		padding-top:15px;
+		padding-bottom:15px;
+		width: 100%;
+		}
+		
+
+		
+	h1 {
+		color: black;
+		font-family: 'Droid Sans Mono', sans-serif;
+		font-size: 4.0em;
+		text-align: center;
+		}
+
+	h2 {	color: black;
+		text-align:center;
+		padding-left:0px;
+		}
+	
+	p {
+		text-align: center;
+		color: black;
+		opacity: 0.9;
+		padding: 10px;
+		padding-bottom: 80px:
+		}
+		
+
+	ul {
+		list-style-type:none;
+		display: inline;
+		}
+		
+	li { 
+		display: inline;
+		border-right: 1px solid #231B12;
+		border-left: 1px solid #231B12;
+		padding: 5px;
+		}
+		
+	a {
+		width: 70%;
+		color: black;
+		}		
+	
+	nav {
+		text-align: center;
+		color: black;
+		margin-top: 12px;
+		margin-right: 2px;
+		background-color: #D1C2B3;
+		opacity: 0.6;
+		border: 1px black;
+		border-style: solid;
+		padding: 7px 10px 7px 10px;
+		}
+	
+		
+	#content {
+		padding: 10px;
+		padding-top: 50px;
+		padding-bottom: 100px;
+		}
+	
+	#footer	{
+		width: 100%;
+		height: 30px;
+		position: absolute;
+    	text-align: center;
+		bottom:0;
+		left:0;
+		background: white;
+		}
+		
+	#wrapper {
+		min-height:100%;
+		position:relative;
+		}
+
+		#sidebar {
+		text-align:center;
+		padding: 0px;
+		}
+		
+}
+
+
+/*
+* 300px to 700px
+*/
+@media screen and (max-width:700px) and (min-width:300px){
+html {
+		background-image: url(whitediamond.png);
+		background-attachment: fixed;
+		background-size: cover;
+		margin: 40px auto;
+		}
+
+	
+	body {	
+		font-family: Papyrus, Geneva, Helvetica;
+		color: black;
+		height: 100%;
+		margin-left: 100px;
+		margin-right: 100px;
+		margin: 0px auto;
+		max-width: 800px;
+		}
+		
+		
+	Header {
+		text-align: left;
+		background-image: none;
+		background-size: cover;
+		padding-top:5px;
+		padding-bottom:10px;
+		width: 60%;
+		}
+	
+		
+	h1 {
+		color: black;
+		font-family: 'Droid Sans Mono', sans-serif;
+		font-size: 2.5em;
+		text-align: center;
+		}
+
+	h2 {	color: black;
+		text-align:center;
+		padding-left:0px;
+		}
+	
+	p {
+		text-align: left;
+		color: black;
+		opacity: 0.9;
+		padding: 10px;
+		padding-bottom: 80px:
+		}
+		
+
+	ul {
+		list-style-type:none;
+		display: inline;
+		}
+		
+	li { 
+		text-align: center;
+		padding: 0px;
+		display: inline;
+		}
+		
+	a {
+		width: 70%;
+		color: black;
+		}		
+	
+	nav {
+		text-align: center;
+		color: black;
+		margin-top: 12px;
+		margin-right: 2px;
+		background-color: #D1C2B3;
+		opacity: 0.6;
+		border: 1px black;
+		border-style: solid;
+		padding: 0px 10px 5px 0px;
+		}
+	
+	hr {size= 5px;
+		}
+		
+	#content {
+		float: bottom;
+		padding: 10px;
+		padding-bottom: 100px;
+		}
+	
+	#footer	{
+		width: 100%;
+		height: 30px;
+		position: absolute;
+    	text-align: center;
+		bottom:0;
+		left:0;
+		background: white;
+		}
+		
+	#wrapper {
+		min-height:100%;
+		position:relative;
+		}
+		
+	#sidebar {
+		text-align: center;
+		padding: 0px;
+		width: 100%;
+		}
+	
+		
+
+
+}
+
+
+/*
+*300px and smaller
+*/
+@media screen and (max-width: 300px) and (min-width: 0px){
+html {
+		background-image: none;
+		background-attachment: fixed;
+		background-size: cover;
+		margin: 10px auto;
+		}
+
+	
+	body {	
+		background-color: white;
+		font-family: Papyrus, Geneva, Helvetica;
+		color: black;
+		height: 100%;
+		margin-left: 100px;
+		margin-right: 100px;
+		margin: 0px auto;
+		max-width: 800px;
+		}
+		
+		
+	Header {
+	
+		background-image: none;
+		background-size: cover;
+		background-color: white;
+		padding-top:15px;
+		padding-bottom:15px;
+		width: 100%;
+		}
+		
+
+		
+	h1 {
+		color: black;
+		font-family: 'Droid Sans Mono', sans-serif;
+		font-size: 2.0em;
+		text-align: center;
+		}
+
+	h2 {	color: black;
+		text-align:center;
+		padding-left:0px;
+		}
+	
+	p {
+		text-align: center;
+		color: black;
+		opacity: 0.9;
+		padding: 10px;
+		padding-bottom: 80px:
+		}
+		
+
+	ul {
+		list-style-type:none;
+		display: block;
+		}
+		
+	li { 
+		display: block;
+		border-right: none;
+		border-left: none;
+		padding: 2px;
+		}
+		
+	a {
+		width: 70%;
+		color: black;
+		}		
+	
+	nav {
+		width: 100%;
+		text-align: left;
+		color: black;
+		margin-top: 2px;
+		margin-right: 0px;
+		padding-right: 0px;
+		background-color: #D1C2B3;
+		opacity: 0.8;
+		border: 1px black;
+		border-style: solid;
+		padding: 0px 0px 0px 0px;
+		}
+		
+	#content {
+		padding: 10px;
+		padding-bottom: 100px;
+		}
+	
+	#footer	{
+		width: 100%;
+		height: 30px;
+		position: absolute;
+    	text-align: center;
+		bottom:0;
+		left:0;
+		background-color: #D1C2B3;
+		}
+		
+	#wrapper {
+		min-height:100%;
+		position:relative;
+		background-color: white;
+		}
+
+	#sidebar {
+		text-align:center;
+		padding: 0px;
+		}
+
+}
+
+
+/*
+* Print styles
+*/
+@media print {
+
+
+
+}
