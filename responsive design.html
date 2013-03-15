@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8">
 	<link href='http://fonts.googleapis.com/css?family=Droid+Sans+Mono' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Carrois+Gothic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="rdstyles.css">
 
 <title>
@@ -21,9 +22,9 @@ Responsive Design
 <div id="sidebar">
 <nav>
 	<ul>
-		<li><a href="#view">What should I be seeing?</a></li>
-		<li><a href="#block">What is a block quote?</a></li>
-		<li><a href="#list">Listed items</a></li>
+		<li class="nav"><a href="#view">What should I be seeing?</a></li>
+		<li class="nav"><a href="#block">What is a block quote?</a></li>
+		<li class="nav"><a href="#list">Nested Lists</a></li>
 	</ul>	
 	</nav>
 </div>
@@ -37,25 +38,46 @@ Responsive Design
 	     centered, with a horizontal navigation bar centered beneath it. All other text should
 		 be centered further below and there should be significant space on either side of the 
 		 page content. On a smaller computer screen, the page will appear similarly, although
-		 with less padding on either side. If viewing this page on a tablet (600px), you should 
-		 see the navigation bar now vertically displayed on the left side of the page. The title 
-		 will still be centered, but the text (content) of the page will be on the right side.
-		 On a smartphone (300px), you should see a small title with navigation (no longer inline)
-		 directly underneath. Text will be located directly below the navigation.</p>
+		 with less padding on either side. If viewing this page on a tablet (800px), the title 
+		 will now be on the left side in smaller text. The header will now be thinner with a light
+		 bronze backgorund instead of the sepia image of sheep. The backgound image of the entire 
+		 page is now a lighter diamond pattern. On a smartphone (300px), you should see a small title
+		 with navigation (no longer inline)directly underneath. Text will be located directly below
+		 the navigation and the background for the entire page is now entirely white.</p>
 		 
 	<h2><a id="block">What is a blockquote?</a></h2>
 		
 	<p>A blockquote is a piece of text that is given margins and set within another piece of content
 	    I asked local citizen Ron Numnutz for his opinion on blockquotes; he had the following to say
-		<blockquote>"I don't much about the internet, but I do want my words to be featured prominently,
+		<blockquote><h3>"I don't much about the internet, but I do want my words to be featured prominently,
 					much more so than any surrounding words," said Numnutz. "Ain't there a way to git 'er
 					done without all the fuss?"
-		</blockquote>
+		</h3></blockquote>
 		With so much public pressure, it is obvious why the W3C has created the shortcut HTML tag for the 
 		blockquote.
 	</p>
 
-	<h2><a id="list">Listed items</a></h2>
+	<h2><a id="list">Nested Lists</a></h2>
+	
+	<p>In this section I am going to try some nested Lists. I will be using an unordered list to 
+		show a few of my favorite bands, and an ordered list to show my favorite 
+		albums by those bands.</p>
+		
+	<ul>
+		<li>Black Sabbath
+			<ol><li>Master of Reality</li>
+				<li>Paranoid</li>
+				<li>Black Sabbath</li></ol></li>
+		<li>Junior Kimbrough
+			<ol><li>Sad Days and Lonely Nights</li>
+				<li>Meet Me in The City</li>
+				<li>Do the Rump</li></ol></li>
+		<li>The Rolling Stones
+			<ol><li>Exile on Main Street</li>
+				<li>Sticky Fingers</li>
+				<li>Beggars Banquet</li></ol></li>
+	</ul>
+	
 	
 	
 </div>

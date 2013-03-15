@@ -42,6 +42,10 @@ html {
 		text-align:center;
 		padding-left:0px;
 		}
+		
+	h3 {color: black;
+		font-family: 'Carrois Gothic', sans-serif;
+		}
 	
 	p {
 		text-align: center;
@@ -52,19 +56,19 @@ html {
 		}
 		
 
-	ul {
-		list-style-type:none;
+	ul {	
 		padding-left:0px;
 		display: inline;
 		}
 		
-	li { 
+	li.nav{ 
 		display: inline;
 		border-right: 1px solid #231B12;
 		border-left: 1px solid #231B12;
 		padding: 5px;
 		}
-		
+	
+	
 	a {
 		width: 70%;
 		color: black;
@@ -80,6 +84,10 @@ html {
 		border: 1px black;
 		border-style: solid;
 		padding: 7px 10px 7px 10px;
+		}
+		
+	blockquote {
+		font-family: 'Carrois Gothic', sans-serif;
 		}
 		
 	#content {
@@ -113,9 +121,9 @@ html {
 
 
 /*
-* 1200px and wider
+* 800px and wider
 */
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 800px) {
 html {
 		background-image: url(dust.png);
 		background-attachment: fixed;
@@ -172,7 +180,7 @@ html {
 		display: inline;
 		}
 		
-	li { 
+	li.nav { 
 		display: inline;
 		border-right: 1px solid #231B12;
 		border-left: 1px solid #231B12;
@@ -227,9 +235,9 @@ html {
 
 
 /*
-* 700px to 1200px
+* 500px to 800px
 */
-@media screen and (max-width:1200px) and (min-width:700px){
+@media screen and (max-width:800px) and (min-width:500px){
 html {
 		background-image: url(whitediamond.png);
 		background-attachment: fixed;
@@ -264,8 +272,9 @@ html {
 		color: black;
 		font-family: 'Droid Sans Mono', sans-serif;
 		font-size: 2.5em;
-		text-align: center;
-		width: 50%;
+		text-align: left;
+		width: 100%;
+		padding-left: 10px;
 		}
 
 	h2 {	color: black;
@@ -288,7 +297,7 @@ html {
 		display: inline;
 		}
 		
-	li { 
+	li.nav { 
 		text-align: center;
 		padding: 0px;
 		display: inline;
@@ -348,9 +357,9 @@ html {
 
 
 /*
-*700px and smaller
+*500px and smaller
 */
-@media screen and (max-width: 700px) and (min-width: 0px){
+@media screen and (max-width: 500px) and (min-width: 0px){
 html {
 		background-image: none;
 		background-attachment: fixed;
@@ -409,7 +418,7 @@ html {
 		display: block;
 		}
 		
-	li { 
+	li.nav { 
 		display: block;
 		border-right: none;
 		border-left: none;
