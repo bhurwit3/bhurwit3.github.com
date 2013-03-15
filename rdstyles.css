@@ -113,9 +113,9 @@ html {
 
 
 /*
-* 700px and wider
+* 1200px and wider
 */
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 1200px) {
 html {
 		background-image: url(dust.png);
 		background-attachment: fixed;
@@ -227,9 +227,9 @@ html {
 
 
 /*
-* 300px to 700px
+* 700px to 1200px
 */
-@media screen and (max-width:700px) and (min-width:300px){
+@media screen and (max-width:1200px) and (min-width:700px){
 html {
 		background-image: url(whitediamond.png);
 		background-attachment: fixed;
@@ -348,9 +348,9 @@ html {
 
 
 /*
-*300px and smaller
+*700px and smaller
 */
-@media screen and (max-width: 300px) and (min-width: 0px){
+@media screen and (max-width: 700px) and (min-width: 0px){
 html {
 		background-image: none;
 		background-attachment: fixed;
