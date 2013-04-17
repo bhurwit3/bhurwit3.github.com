@@ -1,0 +1,459 @@
+/*
+media screen default
+*/
+@media screen {
+html {
+		background-image: url(riebeeck1.jpg);
+		background-attachment: fixed;
+		background-size: cover;
+		}
+
+	
+	body {	
+		font-family: verdana, sans;
+		text-align: justify;
+		color: black;
+		height: 100%;
+		margin-left: 100px;
+		margin-right: 100px;
+		margin: 0px auto;
+		}
+		
+		
+	Header {
+		background-color: black;
+		background-size: cover;
+		padding-top:25px;
+		padding-bottom:25px;
+		width: 100%;
+		}
+		
+
+		
+	h1 {
+		background-color: black;
+		color: white;
+		font-family: palatino linotype;
+		font-size: 2.8em;
+		text-align: left;
+		margin-left: 100px;
+		margin-top: 60px;
+		padding-left: 30px;
+		padding-top:25px;
+		padding-bottom:25px;
+		width:80%
+		}
+
+	
+	p {
+		text-align: justify;
+		float: left;
+		background-color: rgba(75,75,75,.1);
+		color: rgba(75,75,75,.9);
+		font-family: verdans, sans-serif;
+		font-size: 1.2em;
+		margin-top: 0px;
+		margin-left: 5%;
+		margin-right: 0%;
+		padding: 10px;
+		max-width: 45%;
+		}
+		
+	
+	img {
+		float: left;
+		margin-left: 15%;
+		max-width: 30%;
+	
+	}
+		
+	a {
+		width: 70%;
+		color: white;
+		text-decoration: none;
+		}		
+	
+	nav {
+		display: inline;
+		color: white;
+		margin-top: 12px;
+		margin-right: 0px;
+		background-color: black;
+		padding: 7px 10px 7px 10px;
+		}
+
+	ul {	
+		padding-left:25px;
+		color: white;
+		display: inline;
+		}
+	
+	li {
+		display: inline;
+		padding-left:75px;
+		font-size: 1.1em;
+		}
+
+}
+
+
+
+
+/*
+* 800px and wider
+
+@media screen and (min-width: 800px) {
+html {
+		background-image:;
+		background-attachment: fixed;
+		background-size: cover;
+		margin: 40px auto;
+		}
+
+	
+	body {	
+		font-family: Helvetica;
+		text-align: justify;
+		color: black;
+		height: 100%;
+		margin-left: 100px;
+		margin-right: 100px;
+		margin: 0px auto;
+		max-width: 800px;
+		}
+		
+		
+	Header {
+		background-image: url(shornsheep.png);
+		background-size: cover;
+		padding-top:15px;
+		padding-bottom:15px;
+		width: 100%;
+		}
+		
+
+		
+	h1 {
+		color: black;
+		font-family: 'Droid Sans Mono', sans-serif;
+		font-size: 4.0em;
+		text-align: center;
+		}
+
+	h2 {	color: black;
+		text-align:center;
+		padding-left:0px;
+		}
+	
+	p {
+		text-align: justify;
+		color: black;
+		opacity: 0.9;
+		padding: 10px;
+		padding-bottom: 80px:
+		}
+		
+
+	ul {
+		list-style-type:none;
+		padding-left:0px;
+		display: inline;
+		}
+		
+	li.nav { 
+		display: inline;
+		border-right: 1px solid #231B12;
+		border-left: 1px solid #231B12;
+		padding: 5px;
+		}
+		
+	a {
+		width: 70%;
+		color: black;
+		}		
+	
+	nav {
+		text-align: center;
+		color: black;
+		margin-top: 12px;
+		margin-right: 2px;
+		background-color: #D1C2B3;
+		opacity: 0.6;
+		border: 1px black;
+		border-style: solid;
+		padding: 7px 10px 7px 10px;
+		}
+	
+		
+	#content {
+		padding: 10px;
+		padding-top: 50px;
+		padding-bottom: 100px;
+		}
+	
+	#footer	{
+		width: 100%;
+		height: 30px;
+		position: absolute;
+    	text-align: center;
+		bottom:0;
+		left:0;
+		background: white;
+		}
+		
+	#wrapper {
+		min-height:100%;
+		position:relative;
+		}
+
+		#sidebar {
+		text-align:center;
+		padding: 0px;
+		}
+		
+}
+
+
+* 500px to 800px
+
+@media screen and (max-width:800px) and (min-width:500px){
+html {
+		background-image: url(whitediamond.png);
+		background-attachment: fixed;
+		background-size: cover;
+		margin: 5px auto;
+		}
+
+	
+	body {	
+		font-family: Helvetica;
+		color: black;
+		height: 100%;
+		margin-left: 100px;
+		margin-right: 100px;
+		margin: 0px auto;
+		max-width: 800px;
+		}
+		
+		
+	Header {
+		text-align: left;
+		background-image: url (shornsheep.png);
+		background-size: cover;
+		padding-top:0px;
+		padding-bottom:1px;
+		width: 100%;
+		}
+	
+		
+	h1 {
+		color: black;
+		font-family: 'Droid Sans Mono', sans-serif;
+		font-size: 2.5em;
+		text-align: left;
+		width: 100%;
+		padding-left: 10px;
+		}
+
+	h2 {	color: black;
+		text-align:center;
+		padding-left:0px;
+		}
+	
+	p {
+		text-align: left;
+		color: black;
+		opacity: 0.9;
+		padding: 10px;
+		padding-bottom: 80px:
+		}
+		
+
+	ul {
+		list-style-type:none;
+		padding-left:0px;
+		display: inline;
+		}
+		
+	li.nav { 
+		text-align: center;
+		padding: 0px;
+		display: inline;
+		}
+		
+	a {
+		width: 70%;
+		color: black;
+		}		
+	
+	nav {
+		text-align: center;
+		color: black;
+		margin-top: 0px;
+		margin-right: 0px;
+		background-color: #D1C2B3;
+		opacity: 0.6;
+		border: 1px black;
+		border-style: solid;
+		padding: 4px 2px 4px 2px;
+		}
+	
+	hr {size= 5px;
+		}
+		
+	#content {
+		float: bottom;
+		padding: 10px;
+		padding-bottom: 100px;
+		}
+	
+	#footer	{
+		width: 100%;
+		height: 30px;
+		position: absolute;
+    	text-align: center;
+		bottom:0;
+		left:0;
+		background: white;
+		}
+		
+	#wrapper {
+		min-height:100%;
+		position:relative;
+		}
+		
+	#sidebar {
+		text-align: center;
+		padding: 0px;
+		width: 100%;
+		}
+	
+		
+
+
+}
+
+
+*500px and smaller
+
+@media screen and (max-width: 500px) and (min-width: 0px){
+html {
+		background-image: none;
+		background-attachment: fixed;
+		background-size: cover;
+		margin: 10px auto;
+		}
+
+	
+	body {	
+		background-color: white;
+		font-family: Helvetica;
+		color: black;
+		height: 100%;
+		margin-left: 100px;
+		margin-right: 100px;
+		margin: 0px auto;
+		max-width: 800px;
+		}
+		
+		
+	Header {
+	
+		background-image: none;
+		background-size: cover;
+		background-color: white;
+		padding-top:15px;
+		padding-bottom:15px;
+		width: 100%;
+		}
+		
+
+		
+	h1 {
+		color: black;
+		font-family: 'Droid Sans Mono', sans-serif;
+		font-size: 2.0em;
+		text-align: center;
+		}
+
+	h2 {	color: black;
+		text-align:center;
+		padding-left:0px;
+		}
+	
+	p {
+		text-align: center;
+		color: black;
+		opacity: 0.9;
+		padding: 10px;
+		padding-bottom: 80px:
+		}
+		
+
+	ul {
+		list-style-type:none;
+		display: block;
+		}
+		
+	li.nav { 
+		display: block;
+		border-right: none;
+		border-left: none;
+		padding: 2px;
+		}
+		
+	a {
+		width: 70%;
+		color: black;
+		}		
+	
+	nav {
+		width: 100%;
+		text-align: center;
+		color: black;
+		margin-top: 2px;
+		margin-right: 0px;
+		padding-right: 0px;
+		background-color: #D1C2B3;
+		opacity: 0.8;
+		border: 1px black;
+		border-style: solid;
+		padding: 0px 0px 0px 0px;
+		}
+		
+	#content {
+		padding: 10px;
+		padding-bottom: 100px;
+		}
+	
+	#footer	{
+		width: 100%;
+		height: 30px;
+		position: absolute;
+    	text-align: center;
+		bottom:0;
+		left:0;
+		background-color: #D1C2B3;
+		}
+		
+	#wrapper {
+		min-height:100%;
+		position:relative;
+		background-color: white;
+		}
+
+	#sidebar {
+		text-align:center;
+		padding: 0px;
+		}
+
+}
+
+
+* Print styles
+*/
+@media print {
+
+
+
+}
