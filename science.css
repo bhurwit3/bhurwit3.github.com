@@ -46,25 +46,15 @@ html {
 	p {
 		text-align: justify;
 		color: white;
-		font-family: verdans, sans-serif;
+		font-family: verdana, sans-serif;
 		font-size: 1.2em;
-		margin-top: 0px;
+		margin-top: 10px;
 		margin-left: 5%;
 		margin-right: 0%;
 		padding: 10px;
 		max-width: 45%;
 		float: left;
 		}
-		
-	
-	img {
-		margin-left: 5%;
-		margin-right: 5%;
-		max-width: 300px;
-		float: right;
-	
-	
-	}
 		
 	a {
 		width: 70%;
@@ -94,10 +84,14 @@ html {
 		}
 
 	h3 { background-color: rgba(75,75,75,.2);
-		font: palatino linotype;
+		font-family: palatino linotype;
+		font-size: 1.5em;
 		text-align: center;
-		margin-left: 150px;
-		width: 40%;
+		padding-top: 10px;
+		margin-top: 0px;
+		height: 50px;
+		width: 50%;
+		float: right;
 		}
 		
 	h5 {
@@ -113,6 +107,36 @@ html {
 		color: white;
 		}
 	
+	#linnaeus{
+		margin-left: 5%;
+		margin-right: 5%;
+		float: right;
+		}
+	
+	#bottom{
+		width: 80%;
+		height: 300px;
+		margin-left: 10%;
+		margin-top: 60px;
+		}
+	
+	#hodges{
+		width: 350px;
+		float: left;
+		}
+	img {
+		max-width: 100%
+		}
+	
+	#text {
+		text-align: justify;
+		color: black;
+		font-family: verdana, sans-serif;
+		font-size: 1.2em;
+		max-width: 50%;
+		float: right;
+		}
+	
 	#footer {
 		background-color: black;
 		background-size: cover;
@@ -125,7 +149,8 @@ html {
 		}
 	
 	#content {
-		padding-bottom: 500px;
+		padding-bottom: 200px;
+		max-width: 1000px;
 		}
 	
 	#wrapper {
