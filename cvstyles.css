@@ -3,7 +3,7 @@ media screen default
 */
 @media screen {
 html {
-		background-image: url(riebeeck1.jpg);
+		background-image: url(riebeeck1.png);
 		background-attachment: fixed;
 		background-size: cover;
 		}
@@ -21,7 +21,7 @@ html {
 		
 		
 	Header {
-		background-color: black;
+		background-color: rgba(75,75,75,1.0);
 		background-size: cover;
 		padding-top:25px;
 		padding-bottom:25px;
@@ -31,7 +31,7 @@ html {
 
 		
 	h1 {
-		background-color: black;
+		background-color:rgba(75,75,75,1.0);
 		color: white;
 		font-family: palatino linotype;
 		font-size: 2.8em;
@@ -78,7 +78,7 @@ html {
 		color: white;
 		margin-top: 12px;
 		margin-right: 0px;
-		background-color: black;
+		background-color: rgba(75,75,75,1.0);
 		padding: 7px 10px 7px 10px;
 		}
 
