@@ -1,6 +1,6 @@
 @media screen {
 html {
-		background-image:url(davinci.jpg);
+		background-image:none;
 		background-attachment: fixed;
 		background-size: cover;
 		}
@@ -153,3 +153,5 @@ html {
 		min-height:100%;
 		position:relative;
 		}
+		 
+    
