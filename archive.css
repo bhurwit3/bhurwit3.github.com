@@ -1,6 +1,6 @@
 @media screen {
 html {
-		background-image:url(old-books.jpg);
+		background-image:none;
 		background-attachment: fixed;
 		background-size: cover;
 		}
@@ -132,8 +132,7 @@ table.tablesorter {
 	text-align: left;
 }
 table.tablesorter thead tr th, table.tablesorter tfoot tr th {
-	background-color: #e6EEEE;
-	border: 1px solid #000;
+	background-color: rgba(240,217,163,.4);
 	padding: 5px;
 	padding-right: 30px;
 }
@@ -145,9 +144,7 @@ table.tablesorter thead tr .header {
 }
 table.tablesorter tbody td {
 	color: #000;
-	border: 1px solid #000;
 	padding: 5px;
-	background-color:rgba(240,217,163,.4);
 }
 table.tablesorter tbody tr.odd td {
 	background-color:#FFF;
