@@ -1,15 +1,58 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-	<link href='http://fonts.googleapis.com/css?family=Droid+Sans+Mono' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="archive.css">
-	<script type="text/javascript" src="jquery-latest.js"></script> 
-	<script type="text/javascript" src="jquery.tablesorter.js"></script> 
-
-<title>
-Archive
-</title>
+<meta charset="utf-8" />
+<title>Archive</title>
+<link rel="stylesheet" href="archive.css">
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+<script type="text/javascript" src="jquery-latest.js"></script> 
+<script type="text/javascript" src="jquery.tablesorter.js"></script> 
+<style>
+.toggler {
+width: 700px;
+height: 200px;
+}
+#button {
+padding: .2em 1em;
+text-decoration: none;
+}
+#effect {
+position: relative;
+width: 240px;
+height: 135px;
+padding: 0.4em;
+}
+#effect h3 {
+margin: 0;
+padding: 0.4em;
+text-align: center;
+}
+</style>
+<script>
+$(function() {
+// run the currently selected effect
+function runEffect() {
+// get effect type from
+var selectedEffect = $( "#effectTypes" ).val();
+// most effect types need no options passed by default
+var options = {};
+// some effects have required parameters
+if ( selectedEffect === "scale" ) {
+options = { percent: 0 };
+} else if ( selectedEffect === "size" ) {
+options = { to: { width: 200, height: 60 } };
+}
+// run the effect
+$( "#effect" ).toggle( selectedEffect, options, 500 );
+};
+// set effect from select menu value
+$( "#button" ).click(function() {
+runEffect();
+return false;
+});
+});
+</script>
 </head>
 
 <body>
@@ -112,7 +155,6 @@ Archive
 </tr>
 </tbody> 
 </table> 
-
 
 <div id="footer"><h5>Created by Ben Hurwitz. George Mason University Department of History and Art History.</h5>
 </div>
