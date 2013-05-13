@@ -31,10 +31,9 @@ html {
 
 		
 	h1 {
-		background-color:rgba(75,75,75,1.0);
-		color: white;
+		color: rgba(75,75,75,1.0);
 		font-family: palatino linotype;
-		font-size: 2.8em;
+		font-size: 3.4em;
 		text-align: left;
 		margin-left: 100px;
 		margin-top: 60px;

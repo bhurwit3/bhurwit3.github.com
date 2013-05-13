@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+<script src="jquery-latest.js"></script>
+<link rel="stylesheet" href="jquery.fancybox.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="archive.css">
+<script type="text/javascript" src="jquery.fancybox.pack.js"></script>
+</head>
+
+<body>
+
+<div id="wrapper">
+<header>
+<nav>
+	<ul>
+		<li><a href="finalhome.html">Home</a></li>
+		<li><a href="science.html">Science</a></li>
+		<li><a href="adventure.html">Adventure</a></li>
+		<li><a href="nature.html">Nature</a></li>
+		<li><a href="man.html">Man</a></li>
+	</ul>	
+	</nav>
+</header>
+
+<div id="content">
+
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		$(".fancybox").fancybox({
+    openEffect  : 'none',
+    closeEffect : 'none',
+    afterLoad   : function() {
+   
+    }
+});
+});
+</script>
+
+<ul>
+<li class="links">Travels in the Interio<a href="#test" class="fancybox">Open</a></li>
+<li class="links"><a href="#test2" class="fancybox">test 2</a></li>
+</ul>
+
+<div id="test" style="display:none;width:300px;">
+<p>
+Lorem ipsum dolor sit <a href="science.html">science</a> amet, consectetur adipiscing elit. Quisque blandit, mi sed sollicitudin hendrerit, elit elit tristique velit, ut sagittis urna dolor non metus. Fusce viverra lacus sit amet urna porttitor eu mollis massa hendrerit.
+</p>
+</div>
+
+
+<div id="test2" style="display:none;width:300px;">
+<p>this is test 2</p>
+</div>
+
+<div id="footer"><h5>Created by Ben Hurwitz. George Mason University Department of History and Art History.</h5>
+</div>
+
+</div>
+</div>
+
+
+</body>
+
+</html>

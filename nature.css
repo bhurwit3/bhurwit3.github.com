@@ -1,6 +1,6 @@
 @media screen {
 html {
-		background-image:url(tan.jpg);
+		background-image:url(botanical.jpg);
 		background-attachment: fixed;
 		background-size: cover;
 		}
@@ -60,6 +60,18 @@ html {
 		color: white;
 		text-decoration: none;
 		}		
+	
+	a.current {
+		width: 150%;
+		color: black;
+		background-color: white;
+		text-decoration: none;
+		font-size: 1.5em;
+		padding-top:25px;
+		padding-bottom:25px;
+		padding-right:25px;
+		padding-left:25px;
+		}
 	
 	nav {
 		display: inline;
