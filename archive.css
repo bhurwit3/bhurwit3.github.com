@@ -60,8 +60,8 @@ html {
 		text-decoration: none;
 		}	
 
-	a.fancybox {
-		color: blue;
+	a.text {
+		color: black;
 		}
 	
 	nav {
@@ -79,10 +79,6 @@ html {
 		display: inline;
 		}
 	
-	ul.links {
-		display: block;
-		}
-	
 	li {
 		display: inline;
 		color: white;
@@ -90,10 +86,6 @@ html {
 		font-size: 1.1em;
 		}
 
-	li.links {
-		display: block;
-		color: black;
-		}
 		
 	h3 { background-color: rgba(75,75,75,.2);
 		font-family: palatino linotype;
